@@ -54,8 +54,8 @@
 		20D1E4C619BB71450052E28B /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		20D1E4C819BB71450052E28B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20D1E4CA19BB71450052E28B /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
-		20D1E4D419BB75FA0052E28B /* PMMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMMTest.h; sourceTree = "<group>"; };
-		20D1E4D519BB75FA0052E28B /* PMMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMMTest.m; sourceTree = "<group>"; };
+		20D1E4D419BB75FA0052E28B /* PMMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMMTest.h; path = ../PMMTest.h; sourceTree = "<group>"; };
+		20D1E4D519BB75FA0052E28B /* PMMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMMTest.m; path = ../PMMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,6 @@
 		20D1E49319BB71450052E28B = {
 			isa = PBXGroup;
 			children = (
-				20D1E4D419BB75FA0052E28B /* PMMTest.h */,
-				20D1E4D519BB75FA0052E28B /* PMMTest.m */,
 				20D1E4A519BB71450052E28B /* Git Test */,
 				20D1E4C419BB71450052E28B /* Git TestTests */,
 				20D1E49E19BB71450052E28B /* Frameworks */,
@@ -122,6 +120,8 @@
 				20D1E4B119BB71450052E28B /* Main.storyboard */,
 				20D1E4B419BB71450052E28B /* PMMViewController.h */,
 				20D1E4B519BB71450052E28B /* PMMViewController.m */,
+				20D1E4D419BB75FA0052E28B /* PMMTest.h */,
+				20D1E4D519BB75FA0052E28B /* PMMTest.m */,
 				20D1E4B719BB71450052E28B /* Images.xcassets */,
 				20D1E4A619BB71450052E28B /* Supporting Files */,
 			);
